@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f3f3f3;
+}
+
+header {
+    background: #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header div {
+    font-weight: bold;
+}
+
+nav {
+    background: #9acd32;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    background: #e0e0e0;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    background: #bbb;
+}
+
+footer {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
